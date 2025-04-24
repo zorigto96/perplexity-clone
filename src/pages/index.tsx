@@ -15,13 +15,19 @@ export default function Home() {
             <Image src="/logo/logo.svg" alt="" width={210} height={48} />
             <Image src="/icons/Collapse.svg" alt="" width={18} height={15} />
           </div>
-          <div className="mt-[30px] flex justify-between rounded-4xl bg-[#FCFCF9] p-[12px] pl-[24px] items-center text-[21px]">
+          <div className="mt-[30px] flex items-center justify-between rounded-4xl bg-[#FCFCF9] text-[#64645F] p-[12px] pl-[24px] text-[21px]">
             New Thread
-            <div className="border border-gray-300 px-[7px] text-[17px] rounded-[7px]">
-              Ctrl
+            <div className="flex gap-[1px]"> 
+              <span className="rounded-[7px] border border-gray-300 px-[7px] text-[17px]">
+                Ctrl
+              </span>
+              <span className="rounded-[7px] border border-gray-300 px-[7px] text-[17px]">
+                ⇧
+              </span>
+              <span className="rounded-[7px] border border-gray-300 px-[7px] text-[17px]">
+                P
+              </span>
             </div>
-            <span>⇧</span>
-            <span>P</span>
           </div>
         </aside>
         <div className="container m-3 ml-0 flex flex-col items-center justify-center gap-12 rounded-xl bg-[#FCFCF9] px-4 py-16">
