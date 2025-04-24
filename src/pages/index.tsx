@@ -15,9 +15,9 @@ export default function Home() {
             <Image src="/logo/logo.svg" alt="" width={210} height={48} />
             <Image src="/icons/Collapse.svg" alt="" width={18} height={15} />
           </div>
-          <div className="mt-[30px] flex items-center justify-between rounded-4xl bg-[#FCFCF9] text-[#64645F] p-[12px] pl-[24px] text-[21px]">
+          <div className="mt-[30px] flex items-center justify-between rounded-4xl bg-[#FCFCF9] p-[12px] pl-[24px] text-[21px] text-[#64645F]">
             New Thread
-            <div className="flex gap-[1px]"> 
+            <div className="flex gap-[1px]">
               <span className="rounded-[7px] border border-gray-300 px-[7px] text-[17px]">
                 Ctrl
               </span>
@@ -29,6 +29,29 @@ export default function Home() {
               </span>
             </div>
           </div>
+          <menu className="mt-[42px] grid gap-[37px]">
+            <li className="flex items-center gap-[12px] text-[23px] font-semibold text-[#13343B]">
+              <Image
+                src="/icons/magnifying-glass.svg"
+                alt=""
+                width={23}
+                height={23}
+              />
+              Home
+            </li>
+            <li className="flex items-center gap-[12px] text-[23px] font-medium text-[#64645F]">
+              <Image src="/icons/discover.svg" alt="" width={23} height={23} />
+              Discover
+            </li>
+            <li className="flex items-center gap-[12px] text-[23px] font-medium text-[#64645F]">
+              <Image src="/icons/Spaces.svg" alt="" width={23} height={23} />
+              Spaces
+            </li>
+            <li className="flex items-center gap-[12px] text-[23px] font-medium text-[#64645F]">
+              <Image src="/icons/Library.svg" alt="" width={23} height={23} />
+              Library
+            </li>
+          </menu>
         </aside>
         <div className="container m-3 ml-0 flex flex-col items-center justify-center gap-12 rounded-xl bg-[#FCFCF9] px-4 py-16">
           <h1 className="text-5xl font-extrabold tracking-tight text-black sm:text-[5rem]"></h1>
