@@ -76,9 +76,11 @@ export default function Home() {
             </div>
           </section>
         </aside>
-        <div className="container m-3 ml-0 flex flex-col items-center justify-center gap-12 rounded-xl bg-[#FCFCF9] px-4 py-16">
-          <h1 className="text-5xl font-extrabold tracking-tight text-black sm:text-[5rem]"></h1>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8"></div>
+        <div className="container m-3 ml-0 flex flex-col items-center gap-12 rounded-xl bg-[#FCFCF9] px-4 py-16 pt-[183px]">
+          <h1 className="pt- text-[53px] font-normal tracking-wide text-black">
+            What do you want to know?
+          </h1>
+          <div className="border-[1px] border-[#D9D9D0] w-[960px] py-[22px] px-[25px] rounded-[30px]">Ask anything...</div>
         </div>
       </main>
     </>
