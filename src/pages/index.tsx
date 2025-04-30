@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="grid min-h-screen grid-cols-[330px_1fr] bg-[#F3F3EE]">
-        <aside className="flex flex-col">
+        <aside className="flex flex-col justify-between">
           <div className="w-[330px] p-[30px] pr-[21px]">
             <div className="flex justify-between">
               <Image src="/logo/logo.svg" alt="" width={210} height={48} />
@@ -59,17 +59,22 @@ export default function Home() {
               </li>
             </menu>
           </div>
-
-          <div className="flex border-y-[1px] border-[#E6E6DE] p-[18px] justify-between">
-            <span className="flex gap-[13px] items-center text-[20px] font-medium">
-              <div className="h-[47px] w-[47px] rounded-full bg-[#E8E8E3]"></div>
-              user
-            </span>
-            <span className="flex gap-[30px]">
-              <Image src="/icons/arrow.svg" alt="" width={20} height={20} />
-              <Image src="/icons/star.svg" alt="" width={21} height={21} />
-            </span>
-          </div>
+          <section>
+            <div className="flex justify-between border-y-[1px] border-[#E6E6DE] p-[18px]">
+              <span className="flex items-center gap-[13px] text-[20px] font-medium">
+                <div className="h-[47px] w-[47px] rounded-full bg-[#E8E8E3]"></div>
+                user
+              </span>
+              <span className="flex gap-[30px]">
+                <Image src="/icons/arrow.svg" alt="" width={20} height={20} />
+                <Image src="/icons/star.svg" alt="" width={21} height={21} />
+              </span>
+            </div>
+            <div className="m-[12px] flex justify-between rounded-[10px] bg-[#E8E8E3] p-[12px] pl-[18px] text-[20px] font-medium">
+              Download
+              <Image src="/icons/download.svg" alt="" width={28} height={28} />
+            </div>
+          </section>
         </aside>
         <div className="container m-3 ml-0 flex flex-col items-center justify-center gap-12 rounded-xl bg-[#FCFCF9] px-4 py-16">
           <h1 className="text-5xl font-extrabold tracking-tight text-black sm:text-[5rem]"></h1>
