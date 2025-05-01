@@ -80,7 +80,24 @@ export default function Home() {
           <h1 className="pt- text-[53px] font-normal tracking-wide text-black">
             What do you want to know?
           </h1>
-          <div className="border-[1px] border-[#D9D9D0] w-[960px] py-[22px] px-[25px] rounded-[30px]">Ask anything...</div>
+          <div className="w-[960px] rounded-[30px] border-[1px] border-[#D9D9D0] px-[25px] py-[22px]">
+            Ask anything...
+            <section className="mt-[50px] flex justify-between">
+              <div className="flex gap-[14px]">
+                <Image src="/icons/pro.svg" alt="" width={42} height={42} />
+                <div className="flex items-center gap-[10px] rounded-[24px] bg-[#E8E8E3] px-[18px] py-[12px]">
+                  <Image src="/icons/atom.svg" alt="" width={24} height={24} />
+                  Deep Research
+                </div>
+              </div>
+              <div className="flex gap-[24px]">
+                <Image src="/icons/chip.svg" alt="" width={24} height={24} />
+                <Image src="/icons/globe.svg" alt="" width={24} height={24} />
+                <Image src="/icons/clip.svg" alt="" width={24} height={24} />
+                <Image src="/icons/voice.svg" alt="" width={48} height={48} />
+              </div>
+            </section>
+          </div>
         </div>
       </main>
     </>
